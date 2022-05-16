@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Ashpro.Controls.Winforms</id>
+    <version>1.0.0</version>
+    <title>Ashpro Winforms Controls</title>
+    <authors>Mohammed Ashraf</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl></projectUrl>
+    <description>This is the collection of Windows Forms User Controls</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Mohammed Ashraf</copyright>
+    <tags>UserControl Free User Controls</tags>
+  </metadata>
+</package>

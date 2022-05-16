@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5E32532-3DFF-4056-91C4-2E01FC439FF8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ashpro.Controls.Winforms</RootNamespace>
+    <AssemblyName>Ashpro.Controls.Winforms</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AshButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AshButton.Designer.cs">
+      <DependentUpon>AshButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AshComboBox.Designer.cs">
+      <DependentUpon>AshComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshDataGridview.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AshDataGridview.Designer.cs">
+      <DependentUpon>AshDataGridview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshDateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AshDateTimePicker.Designer.cs">
+      <DependentUpon>AshDateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshGradientPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AshGradientPanel.Designer.cs">
+      <DependentUpon>AshGradientPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshNumericKeyboardPOS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AshNumericKeyboardPOS.Designer.cs">
+      <DependentUpon>AshNumericKeyboardPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshNumericKeyboardPOS_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AshNumericKeyboardPOS_2.Designer.cs">
+      <DependentUpon>AshNumericKeyboardPOS_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshNumericKeyboardSmall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AshNumericKeyboardSmall.Designer.cs">
+      <DependentUpon>AshNumericKeyboardSmall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshNumericLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AshNumericLabel.Designer.cs">
+      <DependentUpon>AshNumericLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshNumKeyboardNormal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AshNumKeyboardNormal.Designer.cs">
+      <DependentUpon>AshNumKeyboardNormal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshPagedPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AshPagedPanel.Designer.cs">
+      <DependentUpon>AshPagedPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AshProgressBar.Designer.cs">
+      <DependentUpon>AshProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AshTextBox.Designer.cs">
+      <DependentUpon>AshTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshTextBoxNormal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AshTextBoxNormal.Designer.cs">
+      <DependentUpon>AshTextBoxNormal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AshUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AshUpDown.Designer.cs">
+      <DependentUpon>AshUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarColumn.cs" />
+    <Compile Include="Delegates.cs" />
+    <Compile Include="ExButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ExButton.Designer.cs">
+      <DependentUpon>ExButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalFunctions.cs" />
+    <Compile Include="POSButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="POSButton.Designer.cs">
+      <DependentUpon>POSButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StringExtension.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AshNumericKeyboardPOS.resx">
+      <DependentUpon>AshNumericKeyboardPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AshNumericKeyboardPOS_2.resx">
+      <DependentUpon>AshNumericKeyboardPOS_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AshNumericKeyboardSmall.resx">
+      <DependentUpon>AshNumericKeyboardSmall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AshNumKeyboardNormal.resx">
+      <DependentUpon>AshNumKeyboardNormal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AshProgressBar.resx">
+      <DependentUpon>AshProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
